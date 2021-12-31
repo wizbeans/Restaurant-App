@@ -48,10 +48,10 @@ const Variety = () => {
                     content.map((info) => (
                         <div className="col">
                             <div className="card h-100 align-items-center ssb-bg">
-                                <img style={{ width: "200px", height: "215px",  borderTopLeftRadius: "15px",borderBottomLeftRadius: "15px"}} src={info.img} class="card-img-top" alt="..." />
+                                <img style={{ objectFit: "cover",width: "143px", height: "215px",  borderTopLeftRadius: "15px",borderBottomLeftRadius: "15px"}} src={info.img} class="card-img-top" alt="..." />
                                 <div className="card-body d-flex flex-column justify-content-between align-items-center">
                                     <h5 className="card-title fw-bold fs-2">{info.variety}</h5>
-                                    <p class="fst-italic">{info.desc}.</p>
+                                    <p class="fst-italic">{info.desc.slice(0,100)}</p>
                                     <p className="card-text">{info.price}</p>
                                 </div>
                             </div>
