@@ -24,7 +24,7 @@ const Variety = () => {
     setContent(dessert);
   }
   return (
-    <>
+    <div>
       <div className="container select">
         <div className="select-inner" onClick={handleContinental}>
           Continental
@@ -66,7 +66,7 @@ const Variety = () => {
             </div>
         </div>
 
-    </>
+    </div>
   );
 };
 
