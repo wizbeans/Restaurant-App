@@ -2,7 +2,9 @@
 header {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
-
+.jg-logo-div{
+  padding-left: 1%;
+}
 .jg-logo {
   width: 150px;
   margin-top: 0%;

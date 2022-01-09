@@ -1,4 +1,5 @@
 import React from 'react'
+import './homepage/header-footer-slider.css'
 
 function Footer () {
   return (

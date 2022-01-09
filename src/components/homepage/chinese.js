@@ -1,4 +1,4 @@
-import image from '../img/chinese.jpg'
+import image from "../../img/chinese.jpg"
 
 export const chinese=[
     {

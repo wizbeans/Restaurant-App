@@ -1,19 +1,22 @@
-import React from "react";
+import React from 'react'
 import Header from './components/Header.js'
 import Footer from './components/Footer.js'
-import Slider from './components/Slider.js'
-import Variety from "./components/Variety";
+import Slider from './components/homepage/Slider'
+import Review from './components/review_page/Review.jsx'
+import Variety from './components/homepage/Variety'
 
-function App() {
+function App () {
   return (
     <div id='home-section'>
-    <Header />
-    <br/>
+      <Header />
+      {/* <br/>
     <Slider/>
-    <Variety/>
-    <Footer />
-  </div>
-  );
+    <Variety/> */}
+      <Review />
+      <br/>
+      <Footer />
+    </div>
+  )
 }
 
-export default App;
+export default App

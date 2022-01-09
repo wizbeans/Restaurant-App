@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../img/logo.png'
+import './homepage/header-footer-slider.css'
 
 function Header () {
   return (
@@ -35,7 +36,7 @@ function Header () {
               </li>
               <li className='nav-item'>
                 <a className='nav-link' href='#'>
-                  CART
+                  REVIEWS
                 </a>
               </li>
               <li className='nav-item'>
@@ -45,7 +46,7 @@ function Header () {
               </li>
               <li className='nav-item'>
                 <a className='nav-link' href='#' style={{ width: '200%' }}>
-                  OTHER SERVICES
+                  OUR TEAM
                 </a>
               </li>
             </ul>

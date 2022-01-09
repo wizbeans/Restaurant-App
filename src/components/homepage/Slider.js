@@ -1,9 +1,11 @@
 import React from 'react'
 import SliderItem from './SliderItem'
 import img from './SliderImagesContent'
-import food1 from '../img/sliderImages/food1.jpg'
-import food2 from '../img/sliderImages/food2.jpg'
-import food3 from '../img/sliderImages/food3.jpg'
+import food1 from '../../img/sliderImages/food1.jpg'
+import food2 from '../../img/sliderImages/food2.jpg'
+import food3 from '../../img/sliderImages/food3.jpg'
+import './header-footer-slider.css'
+
 function CreateSlide (newSlide) {
   return (
     <SliderItem
