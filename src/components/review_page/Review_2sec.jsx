@@ -1,3 +1,4 @@
+import React from 'react';
 function Review_2sec (props) {
   return (
     <div className='jg-review-overall-rating'>
