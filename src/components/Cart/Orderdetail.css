@@ -1,0 +1,122 @@
+.items{
+    width: 38rem;
+    background-color: #D8F0FF;
+}
+
+.container{
+    padding-top: 20pt;
+    width: 40rem;
+}
+
+/* .item1{
+    
+    float: left;
+}
+
+.quantity{
+    display: inline-block;
+}
+.price{
+    display: inline-block;
+} */
+#wrapper{
+    margin: auto;
+    height: 55rem;
+    background-color: rgb(108, 195, 253);
+}
+#parent1 {
+    padding-top: 20pt;
+    width: 50%;
+    height: 50px; 
+    white-space: nowrap; 
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    /* padding-left: 50pt; */
+    /* overflow-x: auto; */
+}
+#parent2 {
+    padding-top: 20pt;
+    width: 50%;
+    height: 50px; 
+    white-space: nowrap; 
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    /* overflow-x: auto; */
+}
+#parent3 {
+    padding-top: 20pt;
+    width: 50%;
+    height: 50px; 
+    white-space: nowrap;
+    margin: auto; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    /* overflow-x: auto;  */
+}
+.container1{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    /* background-color: red;  */
+}
+.container2{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+}
+.container3{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+#total{
+    padding-top: 20pt;
+    width: 50%;
+    height: 50px; 
+    white-space: nowrap;
+    margin: auto; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.total{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    
+}
+#paytm{
+    padding-top: 20pt;
+    width: 50%;
+    height: 50px; 
+    white-space: nowrap;
+    margin: auto; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.childp{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+
+.imgp{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+}
+
+#payment{
+    padding-top: 50pt;
+    padding-bottom: 1pt;
+}

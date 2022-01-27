@@ -6,6 +6,8 @@ import Review from './components/review_page/Review.jsx'
 import Variety from './components/homepage/Variety'
 import WriteReview from './components/review_page/WriteReview.jsx'
 import { Reviews } from './components/review_page/Reviews.jsx'
+import Cart from './components/Cart/Cart.js'
+
 
 function App () {
   return (
@@ -14,12 +16,13 @@ function App () {
       {/* <br/>
     <Slider/>
     <Variety/> */}
-      <Review />
+      {/* <Review />
       <br/>
       <WriteReview/>
       <br/>
       <Reviews/>
-      <br/>
+      <br/> */}
+      <Cart/>
       <Footer />
     </div>
   )
