@@ -4,21 +4,10 @@
 }
 
 .container{
-    padding-top: 20pt;
+    margin-top: 100px !important;
+    padding-top: 20px;
     width: 40rem;
 }
-
-/* .item1{
-    
-    float: left;
-}
-
-.quantity{
-    display: inline-block;
-}
-.price{
-    display: inline-block;
-} */
 #wrapper{
     margin: auto;
     height: 55rem;

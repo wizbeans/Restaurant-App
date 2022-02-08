@@ -25,4 +25,4 @@ function Review () {
     </div>
   )
 }
-export default Review
+export default Review;

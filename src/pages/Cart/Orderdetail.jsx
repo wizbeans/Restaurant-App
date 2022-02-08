@@ -1,5 +1,5 @@
 import React from "react";
-import "../Cart/Orderdetail.css";
+import "./Orderdetail.css";
 import image from "../../img/dessert.jpg";
 import image1 from "../../img/paytm.jpg";
 import image2 from "../../img/gpay.png";
@@ -8,7 +8,7 @@ import image4 from "../../img/visa.jpg";
 
 export default function Orderdetail() {
   return (
-    <div className="container-fluid row">
+    <div className="container-fluid row ">
       <div className="container card my-5">
         <h3 className="my-2">Order Details</h3>
 

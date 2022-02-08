@@ -15,9 +15,15 @@ header {
     font-size: 1.3rem;
     font-weight: 500;
   }
-  
+
+  .bg-light{
+      width: 100%;
+      background-color: #3db2ff !important;
+      position: fixed;
+      z-index: 1;
+  }
   .jg-item-bg {
-    background-color: #3db2ff;
+    /* background-color: #3db2ff; */
     border-radius: 30px;
     margin: auto;
     width: 50%;
@@ -41,58 +47,11 @@ header {
   .jg-header-icon div {
     margin: 5% 3%;
     display: inline-block;
-    background-color: #3db2ff;
+    /* background-color: #3db2ff; */
     border-radius: 100%;
   }
   
   /* navbar end  */
-  
-  /*Slider start*/
-  .carousel-inner {
-  display: flex;
-    background-color: #3db2ff;
-  
-  }
-  .carousel-item img {
-    padding: 3% 4%;
-    border-radius: 20%;
-    padding-bottom: 0%;
-  }
-  /*Slider end*/
-  
-  /* footer start  */
-  footer {
-    text-align: center;
-  }
-  footer p {
-    color: gray;
-  }
-  footer h3 {
-    padding-bottom: 3%;
-  }
-  .jg-contact-flex-div {
-    margin: 0 auto;
-  }
-  .jg-contact {
-    background-color: #d5d5d5;
-    display: flex;
-    padding: 1%;
-  }
-  .jg-contact-us-icons {
-    margin: 0 1%;
-  }
-  .jg-contact-us-icons div {
-    margin: 5% 0%;
-  }
-  .jg-contact-us-icons p {
-    display: inline-block;
-  }
-  .jg-reach-us img {
-    margin: 3% 0;
-  }
-  
-  /* footer end  */
-  
   /*MEDIA QUERIES*/
   /*Tablet*/
   

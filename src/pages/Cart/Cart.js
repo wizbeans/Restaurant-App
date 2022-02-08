@@ -1,18 +1,17 @@
 import React from 'react'
-import Header from '../Header.js'
+// import Header from '../Header.js'
 import Orderdetail from './Orderdetail.jsx'
 import Billdeatil from './Billdetail.jsx'
-import Footer from '../Footer.js'
+// import Footer from '.../components/Footer/'
 
 const Cart = () => {
     return (
         <div>
-            
-            <Orderdetail/>
+               <Orderdetail/>
             {/* <Billdeatil/> */}
             
         </div>
     )
 }
 
-export default Cart
+export default Cart;

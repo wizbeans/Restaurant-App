@@ -16,6 +16,8 @@
   flex-direction: row;
   display: flex;
   padding: 3% 5%;
+  height: calc(100vh - 356.04px);
+  padding-top: 170px;
 }
 .jg-review-bar-div {
   display: flex;

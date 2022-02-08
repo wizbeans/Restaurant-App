@@ -1,7 +1,9 @@
 import React from 'react'
-import logo from '../img/logo.png'
-import './homepage/header-footer-slider.css'
-
+// import logo from '../img/logo.png'
+import logo from '../logo.png'
+import './header.css'
+import {NavLink} from 'react-router-dom';
+import './header.css'
 function Header () {
   return (
     <header>
@@ -10,9 +12,9 @@ function Header () {
         style={{ dispaly: 'flex' }}
       >
         <div className='jg-logo-div'>
-          <a className='navbar-brand' href='#home-section'>
+          <NavLink to="/"className='navbar-brand'>
             <img className='jg-logo' src={logo} />
-          </a>
+          </NavLink>
         </div>
         <button
           className='navbar-toggler'
@@ -30,32 +32,33 @@ function Header () {
           <div className='jg-item-bg'>
             <ul className='navbar-nav mr-auto'>
               <li className='nav-item '>
-                <a className='nav-link' href='#home-section'>
-                  HOME
-                </a>
+                <NavLink to="/"className='nav-link' >
+                  Home
+                </NavLink>
               </li>
               <li className='nav-item'>
                 <a className='nav-link' href='#'>
-                  REVIEWS
+                  About 
                 </a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='#'>
-                  CONTACT
-                </a>
+                <NavLink to="/review" className='nav-link'>
+                  Reviews
+                </NavLink>
+                
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='#' style={{ width: '200%' }}>
-                  OUR TEAM
-                </a>
+                <NavLink to="/contact"className='nav-link' style={{ width: '200%' }}>
+                  Contact Us
+                </NavLink>
               </li>
             </ul>
           </div>
           <div className='jg-header-icon'>
             <div>
-              <a href='#'>
+              <NavLink to="/login">
                 <img src='https://img.icons8.com/windows/32/ffffff/user.png' />
-              </a>
+              </NavLink>
             </div>
             <div>
               <a href='#'>

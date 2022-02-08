@@ -5,6 +5,8 @@ import { dessert } from './dessert'
 import { north } from './north'
 import { south } from './south'
 import React, { useState } from 'react'
+import { NavLink } from 'react-router-dom'
+import Slider from './Slider'
 
 const Variety = () => {
   const [content, setContent] = useState(continental)
@@ -25,7 +27,8 @@ const Variety = () => {
   }
   return (
     <div>
-      <div className='container select'>
+      <Slider/>
+      <div className=' select'>
         <div className='select-inner' onClick={handleContinental}>
           Continental
         </div>
@@ -42,7 +45,7 @@ const Variety = () => {
           Desserts
         </div>
       </div>
-      <div className='container'>
+      <div style={{marginLeft:50,marginRight:50}}>
         <div className='row row-cols-1 row-cols-md-3 g-4 m-3'>
           {content.map(info => (
             <div className='col'>
@@ -59,9 +62,9 @@ const Variety = () => {
                   class='card-img-top'
                   alt='...'
                 />
-                <div className='card-body d-flex flex-column justify-content-between align-items-center'>
+                <div className='card-body d-flex flex-column justify-content-between ssb-content'>
                   <h5 className='card-title fw-bold fs-2'>{info.variety}</h5>
-                  <p class='fst-italic'>{info.desc.slice(0, 100)}</p>
+                  <p class='fst-italic'>{info.desc.slice(0, 500 )}</p>
                   <p className='card-text'>{info.price}</p>
                 </div>
               </div>
@@ -69,8 +72,8 @@ const Variety = () => {
           ))}
         </div>
       </div>
-      <div className='cart-button'>
-        <div className='cart-button-inner'>Go To Cart</div>
+      <div className=''>
+        <NavLink to="/cart "className='cart-button '>Go To Cart</NavLink>
       </div>
     </div>
   )
