@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/github/issues-pr/wizbeans/Restaurant-App" title="logo">
   <img src="https://img.shields.io/github/forks/wizbeans/Restaurant-App" title="logo">
   <img src="https://img.shields.io/github/stars/wizbeans/Restaurant-App" title="logo">
-  <img src="https://img.shields.io/github/license/wizbeans/Restaurant-App" title="logo">
+<!--   <img src="https://img.shields.io/github/license/wizbeans/Restaurant-App" title="logo"> -->
 </p>
 
 <p align="center">
