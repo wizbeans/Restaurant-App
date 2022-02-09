@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/Restaurant-App/static/css/main.eab83a5d.chunk.css",
+    "main.js": "/Restaurant-App/static/js/main.e8f06bcd.chunk.js",
+    "main.js.map": "/Restaurant-App/static/js/main.e8f06bcd.chunk.js.map",
+    "runtime-main.js": "/Restaurant-App/static/js/runtime-main.2f09c1d7.js",
+    "runtime-main.js.map": "/Restaurant-App/static/js/runtime-main.2f09c1d7.js.map",
+    "static/js/2.cbc8914f.chunk.js": "/Restaurant-App/static/js/2.cbc8914f.chunk.js",
+    "static/js/2.cbc8914f.chunk.js.map": "/Restaurant-App/static/js/2.cbc8914f.chunk.js.map",
+    "static/js/3.41948fdc.chunk.js": "/Restaurant-App/static/js/3.41948fdc.chunk.js",
+    "static/js/3.41948fdc.chunk.js.map": "/Restaurant-App/static/js/3.41948fdc.chunk.js.map",
+    "index.html": "/Restaurant-App/index.html",
+    "static/css/main.eab83a5d.chunk.css.map": "/Restaurant-App/static/css/main.eab83a5d.chunk.css.map",
+    "static/js/2.cbc8914f.chunk.js.LICENSE.txt": "/Restaurant-App/static/js/2.cbc8914f.chunk.js.LICENSE.txt",
+    "static/media/UPI.bbfc1c6e.jpg": "/Restaurant-App/static/media/UPI.bbfc1c6e.jpg",
+    "static/media/chinese.abb6282d.jpg": "/Restaurant-App/static/media/chinese.abb6282d.jpg",
+    "static/media/dessert.e12f26b9.jpg": "/Restaurant-App/static/media/dessert.e12f26b9.jpg",
+    "static/media/food.3e7f83da.jpg": "/Restaurant-App/static/media/food.3e7f83da.jpg",
+    "static/media/food1.1d34f17a.jpg": "/Restaurant-App/static/media/food1.1d34f17a.jpg",
+    "static/media/food2.47fddbd6.jpg": "/Restaurant-App/static/media/food2.47fddbd6.jpg",
+    "static/media/food3.243231e4.jpg": "/Restaurant-App/static/media/food3.243231e4.jpg",
+    "static/media/food4.c603b081.jpg": "/Restaurant-App/static/media/food4.c603b081.jpg",
+    "static/media/food5.309ae3de.jpg": "/Restaurant-App/static/media/food5.309ae3de.jpg",
+    "static/media/food6.5a6184b1.jpg": "/Restaurant-App/static/media/food6.5a6184b1.jpg",
+    "static/media/food7.4b7443d4.jpg": "/Restaurant-App/static/media/food7.4b7443d4.jpg",
+    "static/media/food8.7d8d16ea.jpg": "/Restaurant-App/static/media/food8.7d8d16ea.jpg",
+    "static/media/food9.e5e47fe6.jpg": "/Restaurant-App/static/media/food9.e5e47fe6.jpg",
+    "static/media/logo.a25eca64.png": "/Restaurant-App/static/media/logo.a25eca64.png",
+    "static/media/north.896781c8.jpg": "/Restaurant-App/static/media/north.896781c8.jpg",
+    "static/media/paytm.8ddb2df0.jpg": "/Restaurant-App/static/media/paytm.8ddb2df0.jpg",
+    "static/media/south.86bb474f.jpg": "/Restaurant-App/static/media/south.86bb474f.jpg",
+    "static/media/visa.719694fd.jpg": "/Restaurant-App/static/media/visa.719694fd.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f09c1d7.js",
+    "static/js/2.cbc8914f.chunk.js",
+    "static/css/main.eab83a5d.chunk.css",
+    "static/js/main.e8f06bcd.chunk.js"
+  ]
+}
