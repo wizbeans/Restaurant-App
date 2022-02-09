@@ -82,14 +82,14 @@ You will also see any lint errors in the console.
 
 ## How to Contribute to Restaurant-App?
 
-- Take a look at the Existing [Issues](*) or create your own Issues!
+- Take a look at the Existing [Issues](https://github.com/wizbeans/Restaurant-App/issues) or create your own Issues!
 - Wait for the Issue to be assigned to you.
 - Fork the repository
-- Have a look at [Contibuting Guidelines](*)
+- Have a look at [Contibuting Guidelines](https://github.com/wizbeans/Restaurant-App/blob/main/CONTRIBUTING.md)
 
 ---
 
-#### [Welcome to Restaurant-App Discussions !](*)
+#### [Welcome to Restaurant-App Discussions !]()
 
 ---
 <div>
