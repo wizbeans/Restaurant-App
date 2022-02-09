@@ -5,12 +5,17 @@ header {
   .jg-logo-div{
     padding-left: 1%;
   }
+  .navbar-brand{
+    padding-left: 40px;
+  }
   .jg-logo {
-    width: 150px;
+    height: 50px;
+    width: 70px;
     margin-top: 0%;
     box-shadow: 2px 2px 2px grey;
     border-radius: 10%;
   }
+
   header .jg-item-bg a {
     font-size: 1.3rem;
     font-weight: 500;
